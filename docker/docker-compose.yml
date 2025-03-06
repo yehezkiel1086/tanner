@@ -1,7 +1,9 @@
-version: '2.3'
+#version: '2.3'
 
 networks:
   tanner_local:
+    external: true
+    name: tanner_local
 
 services:
 
